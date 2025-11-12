@@ -56,6 +56,9 @@ ol, ul {
 blockquote, q {
   quotes: none;
 }
+.content__box.box ~ .content__selection.selection .selection__cards{
+    display: block;
+}
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
